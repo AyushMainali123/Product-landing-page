@@ -123,6 +123,30 @@ main #price #item button
     margin: 5% auto;
     //border: 3px solid black;
 }
+footer
+{
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+footer ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li
+{
+    margin: 3vh 2vw 1vh;
+    cursor: pointer;
+}
+footer p
+{
+    text-align: right;
+    margin: 0vh 2vw 2vh;
+    font-weight: lighter;
+    font-size: small;
+}
 
 @media screen and (max-width: 600px)
 {
