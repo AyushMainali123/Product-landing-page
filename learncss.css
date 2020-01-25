@@ -20,6 +20,9 @@ html,body
 #header
 {
     display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #eee;
     justify-content: space-between;
     padding: 2vh;
 }
@@ -33,6 +36,10 @@ html,body
 #header #nav-bar a
 {
     text-decoration: none;
+}
+#header #nav-bar a:link
+{
+	color: black;
 }
 #header #nav-bar a:visited
 {
